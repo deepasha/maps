@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#25262d"
+    tools:context=".emailSignIn">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="291dp"
+        android:layout_height="51dp"
+        android:layout_below="@id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="164dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/edit_round"
+        android:ems="10"
+        android:fontFamily="@font/codebold"
+
+        android:hint="Current Battery Level"
+        android:textColorHint="#80000000"
+        android:inputType="textPersonName"
+        android:paddingLeft="19dp"
+        android:paddingRight="19dp"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="291dp"
+        android:layout_height="51dp"
+        android:layout_below="@id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:textColorHint="#80000000"
+
+        android:background="@drawable/edit_round"
+        android:ems="10"
+
+        android:fontFamily="@font/codebold"
+        android:hint="Location"
+        android:inputType="textPersonName"
+        android:paddingLeft="19dp"
+        android:paddingRight="19dp"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="291dp"
+        android:layout_height="51dp"
+        android:layout_below="@id/editText4"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/edit_round"
+        android:ems="10"
+        android:textColorHint="#80000000"
+
+        android:fontFamily="@font/codebold"
+        android:hint="Location"
+        android:inputType="textPersonName"
+        android:paddingLeft="19dp"
+        android:paddingRight="19dp"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="291dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/codebold"
+        android:textSize="16dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edit_round2"
+        android:text="Continue!" />
+
+</RelativeLayout>
